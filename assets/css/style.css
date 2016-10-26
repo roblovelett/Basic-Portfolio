@@ -1,0 +1,245 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  /*font-size: 62.5%;*/
+  color: #777;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.content {
+  flex: 1;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.row::before,
+.row::after {
+  content: ' ';
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}
+
+/* Base Typo
+ ------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+
+h1 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/* Links */
+
+a {
+  color: #1EAEDB;
+}
+
+a:hover {
+  color: #0FA0CE;
+}
+
+.u-full-width {
+  width: 100%;
+}
+
+.u-max-full-width {
+  max-width: 100%;
+}
+
+/* Floats */
+
+.u-pull-right {
+  float: right;
+}
+
+.u-pull-left {
+  float: left;
+}
+
+.u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Positioning */
+
+.u-center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * Note:
+ *
+ * Nest this class inside something with `position: relative` to have
+ * your element centered relative to its containing element.
+ *
+ * Use this class without nesting it to have your element centered relative
+ * to the viewport.
+ */
+
+.u-center-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+
+/* Type */
+
+.u-text-center {
+  text-align: center !important;
+}
+
+.u-text-right {
+  text-align: right !important;
+}
+
+.u-text-left {
+  text-align: left !important;
+}
+
+.u-text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* Peek a boo */
+
+.u-hide {
+  display: none !important;
+}
+
+.u-show {
+  display: block !important;
+}
+
+.u-invisible {
+  visibility: hidden !important;
+}
+
+.u-visible {
+  visibility: visible !important;
+}
+
+/* Misc */
+
+.u-img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Clearing */
+
+.container:after,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Header */
+.header {
+  min-height: 55px;
+  border-bottom: solid #ccc 2px;
+  color: #fff;
+  background: #fff;
+}
+
+/* Header */
+.header-name {
+  background: #4aaaa5;
+  padding: 20px;
+}
+.header-nav {
+  min-width: 270px;
+  padding: 20px;
+}
+.header-nav li {
+  display: inline;
+}
+.header-nav a {
+  color: #ccc;
+}
+
+/* Main section */
+.content {
+  background: #ffffff url("../images/bg.png") repeat;
+}
+.main {
+  max-width: 650px;
+  background: green;
+}
+.main hr {
+  content:' ';
+  display:block;
+}
+.profile {
+  max-width: 125px;
+  max-height: 90px; 
+}
+
+/* Sidebar */
+.sidebar {
+  min-width: 270px;
+  background: red;
+}
+.connect li {
+  display: inline;
+}
+
+.connect img {
+  max-width: 44px;
+}
+
+/* Footer */
+.footer, .push {
+height: 30px;
+}
+
+.footer {
+  background: pink;
+}
