@@ -15,9 +15,9 @@
                 <div class="header-nav u-pull-right u-text-right">
                     <nav>
                         <ul>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.php">About</a></li>
+                            <li><a href="portfolio.php">Portfolio</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -29,19 +29,14 @@
             <div class="container">
                 <div class="row">
                     <div class="main u-pull-left">
-                        <h1>Contact</h1>
-                        <hr />
-                        <div class="contact">
-                            <form>
-                                <span>Name</span>
-                                <input type="text" name="name">
-                                <span>Email</span>
-                                <input type="text" name="email">
-                                <span>Message</span>
-                                <textarea name="message"></textarea>
-                            </form>
-                            <button type="button" class="btn">Submit</button>
-                        </div>
+                        <article>
+                            <h1>About Me</h1>
+                            <hr />
+                            <img src="assets/images/profile.png" alt="Robert Lovelett" class="profile u-pull-left" />
+                            <p>My name is Robert Lovelett and I am an animator, illustrator, designer, and storyteller. I currently live in Austin, TX with my wife and two cats.</p>
+                            <p>I have been working professionally since 2005. The fields have run the gamut: from online games and independent film, to marketing campaigns, spectacle theater, and AAA videogames. I hope to retain my own voice with each client I work for, creating a humorous but meaningful experience for all people.</p>
+                            <p>I am currently studying to be a full stack developer.</p>
+                        </article>
                     </div>
                     <div class="sidebar u-pull-right">
                         <aside>
