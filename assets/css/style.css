@@ -346,14 +346,23 @@ a:hover {
 }
 .contact span {
   font-size: 1.2em;
-  margin-bottom: 10px;
 }
 .contact input {
   margin-bottom: 15px;
   width: 100%;
 }
-,contact textarea {
+.contact textarea {
   width: 100%;
+  margin-bottom: 10px;
+}
+.btn {
+  font-weight: 600;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #fff;
+  background: #4aaaa5;
+  padding: 10px 20px 10px 20px;
+  font-size: 1em;
+  border: 0;
 }
 /* Sidebar */
 .sidebar {
